@@ -105,9 +105,9 @@ python brain_network_project_master.py timeseries \\
   --outdir outputs/subject
 ```
 
-The command computes Pearson functional connectivity, thresholds the strongest absolute correlations, calculates graph-theoretic and GSP descriptors, computes exploratory H0/H1 persistence summaries, and saves numerical outputs plus an overview plot.
+The command computes Pearson functional connectivity, thresholds the strongest absolute correlations, calculates graph-theoretic and GSP descriptors, computes exploratory H0/H1 persistence summaries, and saves matrices, numerical summaries, and JSON output.
 
-For already-computed feature tables, the script also supports `summarize`, `group`, `interactions`, and `density` commands. See `docs/REPRODUCIBILITY.md` for expected inputs and caveats.
+The script also supports a `summarize` command for descriptive statistics and data-quality checks of an existing feature CSV. Group, interaction, and density-sensitivity results in `results/` are archived aggregate snapshots from the project report; the original participant-level tables are not included, and those analyses are not exposed as CLI commands here. See `docs/REPRODUCIBILITY.md` for input expectations and caveats.
 
 ## Important interpretation notes
 
