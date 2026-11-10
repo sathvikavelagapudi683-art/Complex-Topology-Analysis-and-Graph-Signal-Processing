@@ -1,0 +1,3 @@
+comparison,adjusted_effect,ci95_low,ci95_high,raw_p,bh_adjusted_p,interpretation
+low_vs_rest,-0.040,-0.089,0.008,0.105,0.105,inconclusive
+mid_vs_high,0.021,-0.001,0.044,0.059,0.105,inconclusive

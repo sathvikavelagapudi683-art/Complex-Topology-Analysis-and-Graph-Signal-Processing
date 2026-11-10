@@ -1,0 +1,7 @@
+feature,patient_minus_genpop,raw_p,bh_adjusted_p,notes
+H1_finite_bar_count,53.98,0.047,0.182,nominal only; not significant after BH
+H0_total_persistence,9.51,0.071,0.182,not significant after BH
+H1_total_persistence,1.11,0.075,0.182,not significant after BH
+weighted_modularity,-0.0060,0.209,0.388,not significant after BH
+weighted_clustering,-0.0068,0.287,0.414,not significant after BH
+global_efficiency,0.0012,0.648,0.758,unweighted metric in the reported pipeline

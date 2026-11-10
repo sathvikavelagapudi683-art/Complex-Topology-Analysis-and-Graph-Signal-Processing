@@ -1,0 +1,8 @@
+metric,value,split,notes
+balanced_accuracy,0.5649,validation,validation metric in final report
+selected_threshold,0.555,validation,selected on validation predictions then applied to test
+balanced_accuracy,0.6398,test,exploratory; test reused during earlier comparisons
+macro_f1,0.6191,test,exploratory; test reused during earlier comparisons
+roc_auc,0.6087,test,exploratory; test reused during earlier comparisons
+best_epoch,54,training,selected checkpoint
+best_validation_loss,0.7020,validation,best reported validation loss

@@ -1,0 +1,3 @@
+source_snapshot,n_nodes,n_edges,modularity,notes
+resume_project_bullet,300,7849,0.4816,distinct single-graph highlight; not the HCP cohort mean
+HCP_result_deck_construction,300,7848,,17.5 percent fixed-density construction; cohort mean modularity is 0.3519

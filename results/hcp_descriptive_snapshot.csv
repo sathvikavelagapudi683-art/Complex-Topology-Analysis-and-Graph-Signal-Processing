@@ -1,0 +1,5 @@
+feature,mean,sd,minimum,maximum,cohort,notes
+modularity,0.3519,0.0278,0.2617,0.4481,HCP_S1200_d300,across_subject_summary
+mean_clustering,0.0865,0.0215,0.0461,0.2289,HCP_S1200_d300,across_subject_summary
+low_high_graph_energy_ratio,1.6035,0.1954,1.2378,2.1986,HCP_S1200_d300,across_subject_summary
+H1_total_persistence,6.0849,0.9716,3.2201,9.6058,HCP_S1200_d300,across_subject_summary

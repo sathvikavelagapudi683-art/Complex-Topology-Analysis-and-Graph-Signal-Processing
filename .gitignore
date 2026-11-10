@@ -1,0 +1,32 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+# Raw or participant-level neuroimaging data and derived subject tables
+/data/
+/inputs/
+/outputs/
+*.nii
+*.nii.gz
+*.dtseries.nii
+*.ptseries.nii
+*.pconn.nii
+*.npy
+*.npz
+*.mat
+*.fif
+*.edf
+*.bdf
+*.set
+*participants*.tsv
+*subject*.csv
+*sub-*_*.csv
+# Model checkpoints and serialized objects
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
