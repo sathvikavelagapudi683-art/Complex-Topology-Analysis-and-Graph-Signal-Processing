@@ -2,7 +2,7 @@
 
 ## Included
 
-- `brain_network_project_master.py`: consolidated script for regional time-series to functional-connectivity graph, graph theory, GSP, and persistence summaries; also includes summary/group/interaction/density commands for already-computed feature CSVs.
+- `brain_network_project_master.py`: reusable time-series pipeline for functional connectivity, graph theory, GSP, and persistence summaries; it also provides a descriptive-statistics/data-quality `summarize` command for existing CSVs.
 - Aggregate result snapshots transcribed from the project report and result slides.
 - Method and interpretation notes documenting what the script does and the limits of the recorded results.
 
@@ -20,7 +20,7 @@ For `timeseries`, provide a 2-D `.npy` matrix with finite numeric values. The de
 
 ## Feature-table inputs
 
-The `summarize`, `group`, `interactions`, and `density` commands operate on existing CSVs. The group analysis expects a target-like column called `Group` (or `group`/`diagnosis`); optional adjustment columns are `Site`, `Age`, and `Sex`. The density command accepts multiple `DENSITY=PATH` arguments.
+The `summarize` command operates on an existing CSV and writes numerical descriptive statistics and column-level data-quality information. Group-adjusted comparisons, group-by-site interactions, and density-sensitivity results are included only as aggregate result snapshots transcribed from the project report/slides; their original participant-level inputs were not present in the recovered archive, so these analyses are not exposed as CLI commands in this repository.
 
 The historical GNN experiment is documented in the report but is not re-created by the master script. Its participant-similarity graph construction and training inputs/checkpoint were not in the recovered project package.
 
